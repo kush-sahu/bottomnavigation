@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profil">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="0dp"
+        android:id="@+id/main_layout"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:gravity="center"
+            android:text="𝓼𝓽𝓭𝓸𝓹𝓮𝓭𝓲𝓪"
+            android:textColor="#E3E6EA"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/m4"
+            android:layout_below="@id/textView1"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+
+            android:background="@drawable/custom1"
+            android:text="𝐃𝐢𝐬𝐜𝐫𝐢𝐭 𝐌𝐚𝐭𝐡𝐚𝐦𝐚𝐭𝐢𝐜 𝐀𝐧𝐝 𝐆𝐫𝐚𝐩𝐡 𝐓𝐡𝐞𝐨𝐫𝐲"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/dsa"
+            android:layout_below="@+id/m4"
+            android:layout_width="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/custom1"
+            android:text="𝐃𝐚𝐭𝐚 𝐒𝐭𝐫𝐮𝐜𝐭𝐮𝐫𝐞 𝐀𝐧𝐝 𝐀𝐥𝐠𝐨𝐫𝐢𝐭𝐡𝐞𝐦"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/dbms"
+            android:layout_below="@+id/dsa"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/custom1"
+            android:text="𝐃𝐚𝐭𝐚 𝐁𝐚𝐬𝐞 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐒𝐲𝐬𝐭𝐞𝐦"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/sp"
+            android:layout_below="@+id/dbms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/custom1"
+
+            android:text="𝐒𝐲𝐬𝐭𝐞𝐦 𝐏𝐫𝐨𝐠𝐫𝐚𝐦𝐢𝐧𝐠"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/cn"
+            android:layout_below="@id/sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/custom1"
+            android:text="𝐂𝐨𝐦𝐩𝐮𝐭𝐞𝐫 𝐍𝐞𝐭𝐰𝐨𝐫𝐤𝐢𝐧𝐠"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/toc"
+            android:layout_below="@id/cn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/custom1"
+            android:text="𝐓𝐡𝐞𝐨𝐫𝐲 𝐎𝐟 𝐂𝐨𝐦𝐩𝐮𝐭𝐚𝐭𝐢𝐨𝐧"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:id="@+id/linear2"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toc"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="30sp"
+                android:background="@drawable/custom1"
+                android:text="Download PYQ"
+                android:textColor="#060403"
+                android:textSize="13dp"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/custom1"
+                android:text="VBD notes"
+                android:textColor="#060403"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/custom1"
+                android:text="imp Q"
+                android:textColor="#060403"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>
